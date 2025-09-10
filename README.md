@@ -1,2 +1,0 @@
-# victorpkgs
-nix-channel test
