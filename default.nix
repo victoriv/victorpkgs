@@ -2,7 +2,7 @@ let
   sources = import ./nix/sources.nix;
 
   hello = pkgs.writeShellScriptBin "hello" ''
-    echo "Hello from the Nix channel overlay!"
+    echo "Hello from the victorpkgs Nix channel overlay!"
   '';
 
   pkgs = import sources.nixpkgs {
